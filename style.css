@@ -1,0 +1,31 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    background-color: pink;
+}
+
+.recipe {
+    font-size: 40px;
+    font-stretch: ultra-expanded;
+    color: pink;
+    background-color: darkolivegreen;
+}
+
+h2 {
+    font-size: medium;
+    color: aqua;
+    background-color: pink;
+}
+
+.ingredients > li {
+   color: green; 
+}
+
+.steps > li {
+    color: brown;
+}
