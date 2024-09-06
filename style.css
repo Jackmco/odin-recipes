@@ -1,6 +1,8 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     color: blueviolet;
+    border: solid red 1px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -9,23 +11,89 @@ h1 {
     background-color: pink;
 }
 
-.recipe {
+/* .recipe {
     font-size: 40px;
     font-stretch: ultra-expanded;
     color: pink;
-    background-color: darkolivegreen;
-}
+    background-color: lightblue;
+} */
 
 h2 {
     font-size: medium;
-    color: aqua;
+    color: purple;
     background-color: pink;
 }
 
 .ingredients > li {
-   color: green; 
+   color: brown; 
 }
 
 .steps > li {
     color: brown;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.welcome-diagonal {
+    font-size: 40px;
+}
+
+.welcome-diagonal:after,
+.welcome-diagonal:before {
+    content: "----";
+}
+
+#To {
+    text-align: center;
+    padding: 0 250px 0 0;
+}
+
+#The {
+    text-align: center;
+    padding: 0 0 0 250px;
+}
+
+#Page {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+#landing-page-recipe-container {
+    /* border: solid lightgreen 5px; */
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.recipe-title-container {
+    height: 20px;
+    width: 250px;
+    border: solid grey 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-container {
+    height: 200px;
+    width: 250px;
+    /* border: solid grey 6px; */
+    display: flex;
+    margin: auto;
+}
+
+.recipe-container-image-box {
+    border: solid blue 3px;
+    height: 180px;
+    width: 250px;
+    display: flex;
+
+}
+
+.img {
+   object-fit: contain;
 }
