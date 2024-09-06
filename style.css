@@ -1,7 +1,7 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     color: blueviolet;
-    border: solid red 1px;
+    /* border: solid red 1px; */
     box-sizing: border-box;
 }
 
@@ -10,13 +10,6 @@ h1 {
     font-weight: bold;
     background-color: pink;
 }
-
-/* .recipe {
-    font-size: 40px;
-    font-stretch: ultra-expanded;
-    color: pink;
-    background-color: lightblue;
-} */
 
 h2 {
     font-size: medium;
@@ -70,30 +63,30 @@ h2 {
     
 }
 
+.recipe-container {
+    height: 200px;
+    width: 250px;
+    border: solid grey 2px;
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+}
+
 .recipe-title-container {
     height: 20px;
-    width: 250px;
-    border: solid grey 1px;
+    width: 246px;
+    border-bottom: solid grey 2px;
     display: flex;
     justify-content: center;
 }
 
-.recipe-container {
-    height: 200px;
-    width: 250px;
-    /* border: solid grey 6px; */
-    display: flex;
-    margin: auto;
-}
-
 .recipe-container-image-box {
-    border: solid blue 3px;
     height: 180px;
-    width: 250px;
+    width: 246px;
+    /* border: solid blue 5px; */
     display: flex;
-
 }
 
 .img {
-   object-fit: contain;
+    border: solid grey 1px;
 }
